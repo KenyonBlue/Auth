@@ -6,7 +6,7 @@ class App extends Component {
     render() {
         return (
             <View>
-                <Text>kenyon app</Text>
+                <Text>kenyon's app</Text>
             </View>
         );
     }
