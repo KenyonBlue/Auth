@@ -6,11 +6,7 @@ import LoginForm from './components/LoginForm';
 
 
 class App extends Component {
-
-   
-
     componentWillMount() {
-
         const config = {
             apiKey: "AIzaSyAyjEPxvbGenOxm7QJR4oZN_JR46uistXI",
             authDomain: "authentication-eb5df.firebaseapp.com",
@@ -22,14 +18,13 @@ class App extends Component {
           firebase.initializeApp(config);
     }
 
-    
     render() {
         return (
             <View>
                 <Header headerText="Squaaad Goals" /> 
                 <LoginForm />
                 <Text>
-                    hello kenyon blue is real
+                    hello kenyon blue is a real 1
                 </Text>
             </View>
         
