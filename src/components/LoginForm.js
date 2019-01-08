@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Card, CardSection} from './common';
+import {Alert, Button, Card, CardSection} from './common';
 
 class LoginForm extends Component {
     render() {
@@ -9,7 +9,7 @@ class LoginForm extends Component {
                 <CardSection/>
                 <CardSection/>
                 <CardSection>
-                <Button>
+                <Button onPress={() => console.log('hey now')}>
                     Login
                 </Button>
                 </CardSection>
