@@ -24,7 +24,7 @@ class App extends Component {
                 <Header headerText="Squaaad Goals" /> 
                 <LoginForm />
                 <Text>
-                    hello kenyon blue is a real 1
+                    hello kenyon blue is a real 12
                 </Text>
             </View>
         
